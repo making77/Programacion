@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Principal {
 
 	public static void main(String[] args) {
-
+		//prueba
 		int opcion;
 
 		Scanner mk = new Scanner(System.in);
@@ -19,10 +19,10 @@ public class Principal {
 
 			System.out.println("---Menu---");
 			System.out.println("----------");
-			System.out.println("1.AÒadir elemento al conjunto");
+			System.out.println("1.A√±adir elemento al conjunto");
 			System.out.println("2.Eliminar elemento del conjunto");
 			System.out.println("3.Union de conjuntos");
-			System.out.println("4.IntersecciÛn de conjuntos");
+			System.out.println("4.Intersecci√≥n de conjuntos");
 			System.out.println("5.Diferencia de conjuntos");
 			System.out.println("6.Comprobar si un elemento pertenece a un conjunto");
 			System.out.println("7.Comprobar si un elemento es subconjunto de otro");
@@ -36,17 +36,17 @@ public class Principal {
 			switch (opcion) {
 
 			case 1:
-				// aprovecho el metodo aÒadir numero para introducir los numeros.
+				// aprovecho el metodo a√±adir numero para introducir los numeros.
 
-				l.aÒadirNumero(9);
-				l.aÒadirNumero(4);
-				l.aÒadirNumero(80);
-				l.aÒadirNumero(20);
+				l.a√±adirNumero(9);
+				l.a√±adirNumero(4);
+				l.a√±adirNumero(80);
+				l.a√±adirNumero(20);
 				System.out.println("------------");
-				l2.aÒadirNumero(5);
-				l2.aÒadirNumero(6);
-				l2.aÒadirNumero(4);
-				l2.aÒadirNumero(9);
+				l2.a√±adirNumero(5);
+				l2.a√±adirNumero(6);
+				l2.a√±adirNumero(4);
+				l2.a√±adirNumero(9);
 
 				System.out.println("El conjunto 1 es: " + l);
 				System.out.println(" ");
@@ -70,7 +70,7 @@ public class Principal {
 
 					l3 = l.unionConjunto(l2);// Los hago asi para poder guardar la union de conjuntos en un nuevo
 												// conjunto l3.
-												// l3 es el vector que me devolver· el mÈtodo.
+												// l3 es el vector que me devolver√° el m√©todo.
 					System.out.println(l3);
 
 				}
@@ -123,7 +123,7 @@ public class Principal {
 
 				} else if (l.comprobarSub(l2) == -2) {
 
-					System.out.println("Tienes que aÒadir los conjuntos");
+					System.out.println("Tienes que a√±adir los conjuntos");
 
 				} else {
 
